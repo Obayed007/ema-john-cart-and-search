@@ -14,8 +14,8 @@ const Shop = () => {
     }, []);
 
     const handleAddToCart = (product) => {
-        console.log(product);
-        // cart.push(product);
+        // console.log(product);
+        //do not do this: cart.push(product);
         const newcart = [...cart, product];
         setCart(newcart);
 
